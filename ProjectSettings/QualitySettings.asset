@@ -201,7 +201,11 @@ QualitySettings:
     skinWeights: 255
     textureQuality: 0
     anisotropicTextures: 2
+<<<<<<< HEAD
     antiAliasing: 2
+=======
+    antiAliasing: 0
+>>>>>>> abef295 (Clean up and apply .gitignore)
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
