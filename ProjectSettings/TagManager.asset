@@ -2,17 +2,8 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-<<<<<<< HEAD
-  serializedVersion: 2
-  tags: []
-=======
   serializedVersion: 3
-  tags:
-  - Coin
-  - Trap
-  - Enemy
-  - Key
->>>>>>> abef295 (Clean up and apply .gitignore)
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -20,11 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-<<<<<<< HEAD
-  - 
-=======
   - Ground
->>>>>>> abef295 (Clean up and apply .gitignore)
   - 
   - 
   - 
@@ -54,29 +41,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-<<<<<<< HEAD
-=======
-  - name: BackGround
-    uniqueID: 3256061559
+  - name: Player
+    uniqueID: 1247685743
     locked: 0
   - name: Ground
-    uniqueID: 4263585465
+    uniqueID: 1688560399
     locked: 0
-  - name: ForeGround
-    uniqueID: 2697109411
-    locked: 0
-  - name: Enemy
-    uniqueID: 4127682987
-    locked: 0
-  - name: Player
-    uniqueID: 1932427583
-    locked: 0
-  - name: Item
-    uniqueID: 704479979
-    locked: 0
-  - name: Ui
-    uniqueID: 2909131441
+  - name: ForeGro
+    uniqueID: 1095112551
     locked: 0
   m_RenderingLayers:
   - Default
->>>>>>> abef295 (Clean up and apply .gitignore)
