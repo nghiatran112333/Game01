@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HeroKnight_DeathNoBlood_0: 3443848800847470277
+      HeroKnight_DeathNoBlood_1: -7224951419657466703
+      HeroKnight_DeathNoBlood_2: 8642594771251070293
+      HeroKnight_DeathNoBlood_3: 1955966256059219557
+      HeroKnight_DeathNoBlood_4: -3504854652544592183
+      HeroKnight_DeathNoBlood_5: 6277867990832399301
+      HeroKnight_DeathNoBlood_6: 5011372870847806624
+      HeroKnight_DeathNoBlood_7: 9110120006921240771
+      HeroKnight_DeathNoBlood_8: 5430221984117299736
+      HeroKnight_DeathNoBlood_9: 3458814668421838139
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

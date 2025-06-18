@@ -319,7 +319,6 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: -3347344575938770174, guid: 0baa9231d6311a4439cf96c906ce4838, type: 2}
-    - {fileID: 110716596, guid: 3c2a5b7097b0fe44394328c0bdb9252e, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.7319229
       e01: 0
@@ -329,22 +328,6 @@ MonoBehaviour:
       e11: 0.7319229
       e12: 0
       e13: 314.77228
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 0.72740966
-      e01: 0
-      e02: 0
-      e03: 93.56024
-      e10: 0
-      e11: 0.72740966
-      e12: 0
-      e13: 182.20331
       e20: 0
       e21: 0
       e22: 1
@@ -435,7 +418,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: e8ba0000
     m_LastClickedID: 47848
-    m_ExpandedIDs: 00000000f8b80000fab80000fcb80000feb8000000b9000002b9000004b90000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -464,7 +447,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f8b80000fab80000fcb80000feb8000000b9000002b9000004b90000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
