@@ -53,6 +53,15 @@ TagManager:
   - name: BG4
     uniqueID: 3806191455
     locked: 0
+  - name: BackGround5
+    uniqueID: 1095112551
+    locked: 0
+  - name: BG6
+    uniqueID: 2868427023
+    locked: 0
+  - name: Bg7
+    uniqueID: 3510502671
+    locked: 0
   - name: Ground
     uniqueID: 1688560399
     locked: 0
@@ -61,9 +70,6 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1247685743
-    locked: 0
-  - name: ForeGro
-    uniqueID: 1095112551
     locked: 0
   m_RenderingLayers:
   - Default
