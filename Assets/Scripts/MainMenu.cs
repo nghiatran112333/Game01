@@ -7,16 +7,6 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Forest");
     }
-    public void Options()
-    {
-        OptionsPanel.SetActive(true);
-    }
-
-    public void CloseOptions()
-    {
-        OptionsPanel.SetActive(false);
-    }
-
     public void ExitGame()
     {
         Application.Quit();
