@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: dce8750c8916fc54e8fc3d40ad7283ca
   - enabled: 1
-    path: Assets/Scenes/Village.unity
-    guid: 3aace41bb60976a41af247bf1417feac
-  - enabled: 1
     path: Assets/Scenes/Forest.unity
     guid: e4c7493dbd2f397408d8fa596cf22b46
   - enabled: 1
     path: Assets/Scenes/Crytal.unity
     guid: ee6e9bc00ff155d4dbe3c76a0a486206
+  - enabled: 1
+    path: Assets/Scenes/Village.unity
+    guid: 3aace41bb60976a41af247bf1417feac
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
