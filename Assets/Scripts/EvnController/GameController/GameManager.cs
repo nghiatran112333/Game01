@@ -1,24 +1,35 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    private int score = 0; // Sửa lỗi chính tả "scrore" -> "score"
+    public static GameManager Instance;
+
+    private int score = 0;
+    private bool isGameOver = false;
 
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private GameObject GameOverUI;
 
-    private bool isGameOver = false;
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Start()
     {
         UpdateScore();
-        GameOverUI.SetActive(false);
-    }
-
-    void Update()
-    {
-        // Có thể kiểm tra game over tại đây nếu cần
+        if (GameOverUI != null)
+            GameOverUI.SetActive(false);
     }
 
     public void AddScore(int points)
@@ -29,13 +40,21 @@ public class GameManager : MonoBehaviour
 
     private void UpdateScore()
     {
-        scoreText.text = score.ToString(); // Sửa gán sai
+        if (scoreText != null)
+            scoreText.text = score.ToString();
     }
 
     public void GameOver()
     {
         isGameOver = true;
         Time.timeScale = 0f;
-        GameOverUI.SetActive(true);
+        if (GameOverUI != null)
+            GameOverUI.SetActive(true);
+    }
+
+    public void LoadLevel(string sceneName)
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(sceneName);
     }
 }

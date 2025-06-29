@@ -1,18 +1,14 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-    public string tenManChoi;
-    public void loadManChoiMoi()
-    {
-        SceneManager.LoadScene(tenManChoi);
-    }
+    [SerializeField] private string nextSceneName;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            loadManChoiMoi();
+            GameManager.Instance.LoadLevel(nextSceneName);
         }
     }
 }
